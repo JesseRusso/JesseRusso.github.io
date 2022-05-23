@@ -1,0 +1,39 @@
+body, html{
+margin: 0;
+background-size: cover;
+}
+.background{
+    opacity: 0.95;
+}
+.bigimg{
+    background-position:center center;
+    background-attachment: fixed;
+    background-size:cover;
+    position: fixed;
+    top:0;
+    left:0;
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    text-align: center;
+    opacity: 1;
+    font-family: 'Abril Fatface', Courier, monospace;
+    color: white;
+}
+.email-icon{
+    color:white;
+    text-decoration: none;
+}
+.email-icon .material-icons-outlined{
+    font-size: 36px;
+}
+@media screen and (max-width:2160px) {
+    .bigimg{
+        left:50%;
+        margin-left: -1080px;
+    }
+}
